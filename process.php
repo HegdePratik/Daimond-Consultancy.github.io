@@ -17,4 +17,8 @@ if(isset($_POST['Submit']))
 	 }
 	 mysqli_close($conn);
 }
+else
+{
+	echo("ERROR");
+}
 ?>
