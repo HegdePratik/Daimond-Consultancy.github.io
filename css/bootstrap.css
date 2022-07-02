@@ -10,6 +10,16 @@ html {
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
+
+#Load{
+  background: #fff url(images/loader.gif) no-repeat center center;
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  zindex: 100;
+}
+
 body {
   margin: 0;
 }
@@ -6583,13 +6593,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-#Load{
-  background: #fff url(images/loader.gif) no-repeat center center;
-  background-size: 15%;
-  height: 100vh;
-  width: 100%;
-  position: fixed;
-  zindex: 100;
-}
-
