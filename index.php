@@ -24,6 +24,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 	
 <body>
+	
+	<div id="Load"></div>
+	
 <!-- banner -->
 <div class="main_section_agile">
 		<div class="agileits_nav">
@@ -670,5 +673,14 @@ $(function(){
 			});
 	</script>
 <!-- //here ends scrolling icon -->
+<script>
+	
+	var preloader = document.getElementById('Load');
+	
+	function myFunction(){
+		preloader.style.display = 'none';
+	}
+	
+</script>
 </body>
 </html>
